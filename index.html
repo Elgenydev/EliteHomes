@@ -21,7 +21,7 @@
 
 <body>
   <!-- navbar -->
-  <nav class="navbar navbar-expand-lg bg-white p-3   w-100 shadow">
+  <nav class="navbar navbar-expand-lg bg-white p-3  w-100 shadow">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">EliteHomes</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -49,12 +49,287 @@
     </div>
   </nav>
   <!-- navbar -->
-     <!-- hero section -->
-  <section class="hero ">
+  <!-- hero section -->
+  <section id="hero" class=" min-vh-100">
     <div class="container ">
-     <div class="div"></div>
+      <div class="hero-details text-center mx-auto">
+        <h1 class="text-white">Find Your Dream Home</h1>
+        <p class=" text-white  text-center mx-auto w-75 ">
+          Discover exceptional properties in prime locations. From modern condos to luxury estates,
+          we help you find the perfect place to call home.
+        </p>
+        <div class="bg-white rounded-3 shadow  mx-auto p-4 w-75 search-box">
+          <form class="row gap-md-2 justify-content-center">
+            <div class="col-md-5">
+              <label class="form-label">Location</label>
+              <input type="text" class="form-control" placeholder="Enter city, neighborhood, or ZIP code">
+            </div>
+            <div class="col-md-3">
+              <label class="form-label">Property Type</label>
+              <select class="form-select">
+                <option>All Types</option>
+                <option>House</option>
+                <option>Apartment</option>
+                <option>Condo</option>
+                <option>Townhouse</option>
+              </select>
+            </div>
+            <div class="col-md-3">
+              <label class="form-label">Price Range</label>
+              <select class="form-select">
+                <option>Any Price</option>
+                <option>$0 - $500K</option>
+                <option>$500K - $1M</option>
+                <option>$1M - $2M</option>
+                <option>$2M+</option>
+              </select>
+            </div>
+            <div class="col-md-4">
+              <label class="form-label">Bedrooms</label>
+              <select class="form-select">
+                <option>Any</option>
+                <option>1+</option>
+                <option>2+</option>
+                <option>3+</option>
+                <option>4+</option>
+                <option>5+</option>
+              </select>
+            </div>
+            <div class="col-md-3">
+              <label class="form-label">Bathrooms</label>
+              <select class="form-select">
+                <option>Any</option>
+                <option>1+</option>
+                <option>2+</option>
+                <option>3+</option>
+                <option>4+</option>
+              </select>
+            </div>
+            <div class="col-md-2">
+              <label class="form-label">Min Sq Ft</label>
+              <input type="number" class="form-control" placeholder="1000">
+            </div>
+            <div class="col-md-2">
+              <label class="form-label">Max Sq Ft</label>
+              <input type="number" class="form-control" placeholder="5000">
+            </div>
+            <div class="col-12">
+              <button class="btn btn-purple w-100 border-0 p-3 text-white rounded-3 ">
+                <i class="fa-solid fa-magnifying-glass"></i> Search Properties
+              </button>
+            </div>
+          </form>
+        </div>
+        <div class="counters text-white w-75 mx-auto">
+          <div class="row align-items-center justify-content-around">
+            <div class="col-md-3">
+              <h4 class="m-0 fw-bold">15,000+</h4>
+              <p class="lead m-0">Active Listings</p>
+            </div>
+            <div class="col-md-3">
+              <h4 class="m-0 fw-bold">98%</h4>
+              <p class="lead m-0">Client Satisfaction</p>
+            </div>
+            <div class="col-md-3">
+              <h4 class="m-0 fw-bold">500+</h4>
+              <p class="lead m-0">Expert Agents</p>
+            </div>
+            <div class="col-md-3">
+              <h4 class="m-0 fw-bold">25</h4>
+              <p class="lead m-0">Years Experience</p>
+            </div>
+          </div>
+        </div>
+      </div>
   </section>
   <!-- hero section -->
+
+  <!-- Premium Collection -->
+  <section id="featured-properties" class="m-5">
+    <div class="container-fluid">
+      <div class="premium mx-auto text-center">
+        <span class="h4 py-2 px-4 rounded-5 border-2 border-light">
+          Premium Collection
+        </span>
+      </div>
+      <div class="headline py-5 text-center mx-auto">
+        <h2 class="fw-bold mb-5">Featured Properties</h2>
+        <p class="  w-50 mx-auto">Discover our handpicked selection of premium properties in the most desirable
+          locations</p>
+      </div>
+      <div class="cards">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card rounded-4 overflow-hidden shadow p-0">
+              <div class="position-relative">
+                <img src="./images/featured-properties-img-1.png" class="card-img-top w-100">
+                <span class="badge py-2 rounded-5 text-white">Featured</span>
+                <div class="heart d-flex align-items-center justify-content-center rounded-circle bg-white" ;><i
+                    class="fa-solid fa-heart"></i></div>
+                <div class="photos p-2 rounded-5 text-white"><i class="fa-solid fa-camera"></i> 24 Photos</div>
+              </div>
+              <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                  <div class="price fw-bold">$2,850,000</div>
+                  <span class="text-muted">Price per sq ft: $425</span>
+                </div>
+                <div>
+                  <p class="text-muted mb-2">4 beds • 3.5 baths • 6,720 sqft</p>
+                  <h6 class="card-title text-muted">Modern Luxury Estate</h6>
+                  <p class="text-muted">1234 Beverly Hills Drive, Beverly Hills, CA 90210</p>
+                </div>
+
+                <div class="d-flex justify-content-between align-items-center mt-3">
+                  <div class="d-flex align-items-center gap-2">
+                    <img src="./images/avatar-1.jpg" class="rounded-circle  avatar" width="40px" ;>
+                    <span>John Mitchell</span>
+                  </div>
+                  <button class="btn schedule px-3  rounded-3">Schedule Tour</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card rounded-4 overflow-hidden shadow p-0">
+              <div class="position-relative">
+                <img src="./images/featured-properties-img-2.png" class="card-img-top w-100">
+                <span class="badge py-2 rounded-5 text-white">Featured</span>
+                <div class="heart d-flex align-items-center justify-content-center rounded-circle bg-white" ;><i
+                    class="fa-solid fa-heart"></i></div>
+                <div class="photos p-2 rounded-5 text-white"><i class="fa-solid fa-camera"></i> 24 Photos</div>
+              </div>
+              <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                  <div class="price fw-bold">$2,850,000</div>
+                  <span class="text-muted">Price per sq ft: $425</span>
+                </div>
+                <div>
+                  <p class="text-muted mb-2">4 beds • 3.5 baths • 6,720 sqft</p>
+                  <h6 class="card-title text-muted">Modern Luxury Estate</h6>
+                  <p class="text-muted">1234 Beverly Hills Drive, Beverly Hills, CA 90210</p>
+                </div>
+
+                <div class="d-flex justify-content-between align-items-center mt-3">
+                  <div class="d-flex align-items-center gap-2">
+                    <img src="./images/avatar-2.jpg" class="rounded-circle  avatar" width="40px" ;>
+                    <span>John Mitchell</span>
+                  </div>
+                  <button class="btn schedule px-3  rounded-3">Schedule Tour</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card rounded-4 shadow p-0">
+              <div class="img-box position-relative">
+                <img src="./images/featured-properties-img-3.png" class="card-img-top w-100">
+                <div>
+                  <span class="badge py-2 rounded-5 text-white">Featured</span>
+                </div>
+                <div class="heart d-flex align-items-center justify-content-center rounded-circle bg-white" ;><i
+                    class="fa-solid fa-heart"></i></div>
+                <div class="photos p-2 rounded-5 text-white"><i class="fa-solid fa-camera"></i> 24 Photos</div>
+              </div>
+              <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                  <div class="price fw-bold">$2,850,000</div>
+                  <span class="text-muted">Price per sq ft: $425</span>
+                </div>
+                <div>
+                  <p class="text-muted mb-2">4 beds • 3.5 baths • 6,720 sqft</p>
+                  <h6 class="card-title text-muted">Modern Luxury Estate</h6>
+                  <p class="text-muted">1234 Beverly Hills Drive, Beverly Hills, CA 90210</p>
+                </div>
+
+                <div class="d-flex justify-content-between align-items-center mt-3">
+                  <div class="d-flex align-items-center gap-2">
+                    <img src="./images/avatar-3.jpg" class="rounded-circle  avatar" width="40px" ;>
+                    <span>John Mitchell</span>
+                  </div>
+                  <button class="btn schedule px-3  rounded-3">Schedule Tour</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center py-5">
+        <a href="#" class="btn btn-gradient px-4 py-3 fw-semibold">
+          View All Properties <i class="fa-solid fa-arrow-right ms-2"></i>
+        </a>
+      </div>
+  </section>
+
+  <!-- Premium Collection -->
+
+  <section id="testimonials" class="pt-5">
+    <div class="container">
+      <div class="Client mx-auto text-center">
+        <span class="h4 py-2 px-4 rounded-5">
+          Client Stories
+        </span>
+      </div>
+      <div class="headline-2 py-5 text-center mx-auto">
+        <h2 class="fw-bold mb-5 text-white">What Our Clients Say</h2>
+        <p class="w-50 mx-auto text-white">Hear from satisfied homeowners who found their dream properties with
+          EliteHomes</p>
+      </div>
+      <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="testimonial-box mx-auto w-75 bg-body p-4 rounded-4 shadow">
+              <div class="d-flex align-items-center gap-2 mb-3">
+                <div class="stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <span class="text-muted">5.0 out of 5</span>
+              </div>
+              <p class="fs-5">
+                ""EliteHomes made our home buying experience absolutely seamless. Sarah and her team went above and
+                beyond to help us find the perfect family home in Beverly Hills. Their market knowledge and negotiation
+                skills saved us over $100,000 on our purchase. We couldn't be happier!"
+              </p>
+              <div class="d-flex align-items-center gap-3 mt-4">
+                <img src="./images/" class="rounded-circle" width="60">
+                <div>
+                  <p class="fw-bold mb-1">Jennifer & Mark Thompson</p>
+                  <p class="text-muted mb-0">Beverly Hills Homeowners</p>
+                  <p class="text-muted">Purchased $2.8M Family Estate</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="testimonial-box mx-auto" style="max-width: 800px;">
+              <p class="fs-5">"Amazing service and smooth experience!"</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="testimonial-box mx-auto" style="max-width: 800px;">
+              <p class="fs-5">"Highly recommend EliteHomes!"</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+  </section>
+
+
+
 
   <script src="./Js/bootstrap.bundle.min.js"></script>
 </body>
